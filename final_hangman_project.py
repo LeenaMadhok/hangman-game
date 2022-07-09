@@ -7,7 +7,11 @@ import hangman_art
 word_list=hangman_words.word_list
 chosen_word=random.choice(word_list)
 
-print(chosen_word)
+#*********************************************************************************************************************
+#the word that system have selected/chosen for hangeman.
+# print(chosen_word)
+#*********************************************************************************************************************
+
 word_length=len(chosen_word)
 
 stages=hangman_art.stages
